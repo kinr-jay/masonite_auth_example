@@ -20,6 +20,12 @@ class DogOwnerController(Controller):
 
     def get_user_owners(self):
         return self.request.user().owners
+    
+    def get_owners_dogs(self):
+        id = self.request.param('id')
+        owner = Owner.find(id)
+        print(owner.dogs)
+        return owner.dogs
         
     def get_user_dogs(self):
         return self.request.user().dogs

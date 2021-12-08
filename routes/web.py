@@ -14,6 +14,7 @@ ROUTES = [
     RouteGroup([
         Get("/dog", "DogOwnerController@get_user_dogs").name("get_dogs"),
         Get("/owners", "DogOwnerController@get_user_owners").name("get_owners"),
+        Get("/owners/@id", "DogOwnerController@get_owners_dogs").name("get_owners_dogs"),
         Post("/owner", "DogOwnerController@create_owner").name("create_owner"),
         Post("/dog", "DogOwnerController@create_dog").name("create_dog"),
     ], prefix="/dogowner",middleware=["auth"])

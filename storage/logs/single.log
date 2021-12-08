@@ -1,0 +1,51 @@
+2021-12-08 17:06:54 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-08 17:06:54 - INFO - "GET /static/style.css HTTP/1.1" 200 648
+2021-12-08 17:06:54 - WARNING - "POST /auth HTTP/1.1" 404 1536
+2021-12-08 17:06:54 - INFO - "POST /auth/signup HTTP/1.1" 200 217
+2021-12-08 17:06:54 - INFO - "POST /auth/login HTTP/1.1" 200 296
+2021-12-08 17:06:54 - INFO - "GET /dogowner/dog HTTP/1.1" 200 2
+2021-12-08 17:06:54 - INFO - "GET /dogowner/owners HTTP/1.1" 200 2
+2021-12-08 17:15:07 - INFO - "POST /dogowner/owner HTTP/1.1" 200 125
+2021-12-08 17:15:07 - INFO - "POST /dogowner/owner HTTP/1.1" 200 127
+2021-12-08 17:15:07 - INFO - "POST /dogowner/dog HTTP/1.1" 200 142
+2021-12-08 17:17:25 - ERROR - AttributeError in /Users/mackinr/seir-927/masonite/masonite_auth_example/app/http/controllers/DogOwnerController.py on line 22
+2021-12-08 17:17:25 - ERROR - "GET /dogowner/owners HTTP/1.1" 500 1044802
+2021-12-08 17:19:14 - WARNING - "GET /dogowner/owners/3 HTTP/1.1" 404 1536
+2021-12-08 17:19:58 - WARNING - "GET /dogowner/owners/3 HTTP/1.1" 404 1536
+2021-12-08 17:20:39 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:21:05 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:21:37 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:21:37 - INFO - "GET /dogowner/owners HTTP/1.1" 200 256
+2021-12-08 17:22:27 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:22:27 - INFO - "GET /dogowner/owners/2 HTTP/1.1" 200 144
+2021-12-08 17:22:27 - INFO - "GET /dogowner/owners/1 HTTP/1.1" 200 144
+2021-12-08 17:22:27 - INFO - "GET /dogowner/owners/4 HTTP/1.1" 200 144
+2021-12-08 17:24:04 - INFO - "GET /dogowner/owners/4 HTTP/1.1" 200 144
+2021-12-08 17:24:04 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:24:04 - INFO - "GET /dogowner/owners HTTP/1.1" 200 256
+2021-12-08 17:24:48 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:24:48 - INFO - "GET /dogowner/owners/2 HTTP/1.1" 200 144
+2021-12-08 17:25:56 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:27:01 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:27:14 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
+2021-12-08 17:27:14 - INFO - "GET /dogowner/owners/2 HTTP/1.1" 200 144
+2021-12-08 17:27:42 - INFO - "GET /dogowner/owners/2 HTTP/1.1" 200 144
+2021-12-08 17:27:42 - INFO - "GET /dogowner/owners/2 HTTP/1.1" 200 144
+2021-12-08 17:27:42 - INFO - "GET /dogowner/owners?id=3 HTTP/1.1" 200 256
+2021-12-08 17:28:41 - INFO - "GET /dogowner/test/3 HTTP/1.1" 200 144
+2021-12-08 17:28:41 - INFO - "GET /dogowner/test/2 HTTP/1.1" 200 144
+2021-12-08 17:29:53 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 127
+2021-12-08 17:30:13 - ERROR - AttributeError in /Users/mackinr/seir-927/masonite/masonite_auth_example/app/http/controllers/DogOwnerController.py on line 28
+2021-12-08 17:30:13 - ERROR - "GET /dogowner/owners/3 HTTP/1.1" 500 1046701
+2021-12-08 17:30:26 - ERROR - AttributeError in /Users/mackinr/seir-927/masonite/masonite_auth_example/app/http/controllers/DogOwnerController.py on line 28
+2021-12-08 17:30:26 - ERROR - "GET /dogowner/owners/3 HTTP/1.1" 500 1046703
+2021-12-08 17:35:53 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:35:53 - ERROR - "GET /dogowner/owners/3 HTTP/1.1" 500 970247
+2021-12-08 17:39:27 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:39:27 - ERROR - "GET /dogowner/owners/3 HTTP/1.1" 500 969815
+2021-12-08 17:40:25 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:40:25 - ERROR - "GET /dogowner/owners/3 HTTP/1.1" 500 969815
+2021-12-08 17:42:25 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:42:25 - ERROR - "GET /dogowner/owners/3 HTTP/1.1" 500 970227
+2021-12-08 17:42:39 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 125
+2021-12-08 17:43:18 - INFO - "GET /dogowner/owners/3 HTTP/1.1" 200 144
